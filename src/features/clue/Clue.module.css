@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.clue{
+    padding: 0 25%;
+}
+
+.clue:not(:last-child){
+    border-right: 1px solid black;
+}
+
+.clue p{
+    margin: 0px;
+    font-size: 1em;
+}
+
+.clue-excerpt {
+    background-color: red;
+}

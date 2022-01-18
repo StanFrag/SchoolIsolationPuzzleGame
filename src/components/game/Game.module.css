@@ -1,0 +1,108 @@
+.verticalRow {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.body {
+    flex-grow: 1;
+    display: flex;
+}
+
+.header {
+    background-color: #f2edeb;
+    display: flex;
+    padding: 15px 2%;
+    justify-content: space-between;
+}
+
+.footer {
+    min-height: 10%;
+    background-color: #534749;
+}
+
+.primaryZone {
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+}
+
+.secondaryZone {
+    width: 25%;
+    background-color: #e0e0e0;
+}
+
+.upPrimaryZone {
+    background-color: #decbc4;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    flex-grow: 1;
+
+    padding: 0 3%;
+}
+
+.upPrimaryZone > svg {
+    width: 10%;
+}
+
+.classroomBoard {
+    width: 50%;
+    display: flex;
+
+    background-color: #897e7c;
+}
+
+.leftClassroomBoard {
+    width: 25%;
+    margin: 1%;
+}
+
+.rightClassroomBoard {
+    width: 75%;
+    margin: 1%;
+}
+
+.window {
+    display: flex;
+    width: 13%;
+}
+
+.clockInformation {
+    width: 10%;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.clock {
+    margin-bottom: 50%;
+    width: 50%;
+}
+
+.downPrimaryZone {
+    background-color: #cdada2;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding-right: 3%;
+    margin-top: 10px;
+
+    flex-grow: 1;
+}
+
+.downPrimaryZone > svg {
+    width: 20%;
+}
+
+.svg {
+    cursor: pointer;
+}

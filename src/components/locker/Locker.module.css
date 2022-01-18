@@ -1,0 +1,42 @@
+.lockerUp {
+    display: flex;
+    background-color: #decbc4;
+}
+
+.lockerUp > svg {
+    width: 80%;
+}
+
+.locker {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e0e0e0;
+}
+
+.locker > div {
+    width: 46%;
+    background-color: #e0e0e0;
+    padding: 2%;
+}
+
+.locker > div:last-child {
+    width: 100%;
+}
+
+.locker > div > div {
+    display: flex;
+    flex-direction: column;
+    background-color: #bababa;
+
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lockerName {
+    text-align: center;
+    background-color: #e0e0e0;
+    width: 50%;
+    font-size: 0.5em;
+    margin-bottom: 3%;
+}

@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.leftDialog {
+    width: 8%;
+}
+
+.rightDialog {
+    width: 4%;
+}
+
+.dialogBody {
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    font-size: 1em;
+
+    border-bottom: 0.3vh solid #30282a;
+    border-top: 0.3vh solid #30282a;
+}
