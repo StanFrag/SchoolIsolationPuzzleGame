@@ -5,18 +5,18 @@ import { Counter } from '../../features/counter/Counter';
 import { Dialog } from '../../features/dialog/Dialog';
 
 import { Locker } from '../locker/Locker';
+import { SvgHandler } from '../svg-handler/SvgHandler';
 
-import {ReactComponent as MainDesk} from '../../assets/svg/bureau_1.svg';
-import {ReactComponent as Desk1} from '../../assets/svg/bureau_2.svg';
-import {ReactComponent as Desk2} from '../../assets/svg/bureau_3.svg';
-import {ReactComponent as Desk3} from '../../assets/svg/bureau_4.svg';
-
-import {ReactComponent as Clock} from '../../assets/svg/horloge.svg';
-import {ReactComponent as InformationBoard1} from '../../assets/svg/information_1.svg';
-import {ReactComponent as InformationBoard2} from '../../assets/svg/information_2.svg';
-import {ReactComponent as LeftBoard} from '../../assets/svg/tableau_gauche.svg';
-import {ReactComponent as RightBoard} from '../../assets/svg/tableau_droite.svg';
-import {ReactComponent as Window} from '../../assets/svg/fenetre.svg';
+import MainDesk from '../../assets/svg/bureau_1.svg';
+import Desk1 from '../../assets/svg/bureau_2.svg';
+import Desk2 from '../../assets/svg/bureau_3.svg';
+import Desk3 from '../../assets/svg/bureau_4.svg';
+import Clock from '../../assets/svg/horloge.svg';
+import InformationBoard1 from '../../assets/svg/information_1.svg';
+import InformationBoard2 from '../../assets/svg/information_2.svg';
+import LeftBoard from '../../assets/svg/tableau_gauche.svg';
+import RightBoard from '../../assets/svg/tableau_droite.svg';
+import Window from '../../assets/svg/fenetre.svg';
 
 import styles from './Game.module.css';
 
@@ -32,28 +32,28 @@ export function Game() {
             <div className={styles.upPrimaryZone}>
                 <div className={styles.clockInformation}>
                     <div className={styles.clock}>
-                        <Clock className={styles.svg} />
+                        <SvgHandler src={Clock} dialog="clock" />
                     </div>
-                    <InformationBoard1 className={styles.svg} />
+                    <SvgHandler src={InformationBoard1} dialog="board_information_1" />
                 </div>
                 <div className={styles.classroomBoard}>
                     <div className={styles.leftClassroomBoard}>
-                        <LeftBoard className={styles.svg} />
+                        <SvgHandler src={LeftBoard} dialog="board_left" />
                     </div>
                     <div className={styles.rightClassroomBoard}>
-                        <RightBoard className={styles.svg} />
+                        <SvgHandler src={RightBoard} dialog="board_right" />
                     </div>
                 </div>
-                <InformationBoard2 className={styles.svg} />
+                <SvgHandler src={InformationBoard2} dialog="board_information_2" />
                 <div className={styles.window}>
-                    <Window className={styles.svg} />
+                    <SvgHandler src={Window} dialog="window" />
                 </div>
             </div>
             <div className={styles.downPrimaryZone}>
-                <MainDesk className={styles.svg} />
-                <Desk1 className={styles.svg} onClick={(e) => {alert("Hello!"); console.log(e)}} />
-                <Desk2 className={styles.svg} />
-                <Desk3 className={styles.svg} />
+                <SvgHandler src={MainDesk} dialog="desk.desk_main" />
+                <SvgHandler src={Desk1} dialog="desk.desk_1"/>
+                <SvgHandler src={Desk2} dialog="desk.desk_2" />
+                <SvgHandler src={Desk3} dialog="desk.desk_3" />
             </div>
         </section>
         <section className={styles.secondaryZone}>

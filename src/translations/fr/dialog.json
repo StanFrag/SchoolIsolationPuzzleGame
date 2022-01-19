@@ -1,0 +1,20 @@
+{
+    "desk": {
+        "desk_main": "C'est le bureau du professeur, je ne devrais pas y toucher.",
+        "desk_1": "Il n'y a rien de particulier sur ce bureau.",
+        "desk_2": "Le bureau de Sarah est couvert de saleté, certains élèves s'amusent à lui envoyer de l'encre. Quelqu'un a meme collé un chewing-gum à sa chaise...",
+        "desk_3": "C'est mon bureau. Tiens, on dirai que Sarah m'a laissé une énigme avec sa boite à code."
+    },
+    "clock": "La pause va bientot se terminer, je dois trouver ou est Sarah si je veux lui parler.",
+    "board_left": "Les abscences de la semaine, il y a peut etre un indice caché dedans.",
+    "board_right": "Le bien être à l'école, le cours qu'on va commencer apres la pause, j'ai hâte!",
+    "board_information_1": "Un tableau ou on met des informations pour la classe, rien d'interessant.",
+    "board_information_2": "Un tableau ou on met des informations pour la classe, rien d'interessant.",
+    "window": "Sarah n'est pas dans la cour, on a une bonne vu d'ici.",
+    "locker": {
+        "upper_locker": "Un globe terrestre et des cours qu'on a deja etudié, rien d'interessant.",
+        "default_locker": "Un casier utilisé par un des eleves de ma classe, je ne devrais pas y toucher.",
+        "sarah_locker": "Les livres de Sarah ont été déchiré, ca m'etonnerais que ce soit Sarah qui ait fait ca. Son casier est le numéro 3, ca doit etre un indice.",
+        "lower_locker": "Un microscope et des classeurs pour les cours, rien d'interessant."
+    }
+}

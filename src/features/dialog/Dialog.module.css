@@ -14,9 +14,10 @@
 .dialogBody {
     background-color: white;
     display: flex;
-    align-items: center;
 
-    font-size: 1em;
+    text-align: justify;
+    align-items: center;
+    font-size: 1.25rem;
 
     border-bottom: 0.3vh solid #30282a;
     border-top: 0.3vh solid #30282a;

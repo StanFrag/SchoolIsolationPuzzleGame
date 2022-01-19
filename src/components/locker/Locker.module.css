@@ -3,7 +3,7 @@
     background-color: #decbc4;
 }
 
-.lockerUp > svg {
+.lockerUp > svg, .lockerUp > img {
     width: 80%;
 }
 

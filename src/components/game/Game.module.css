@@ -18,7 +18,7 @@
 }
 
 .footer {
-    min-height: 10%;
+    min-height: 15%;
     background-color: #534749;
 }
 
@@ -46,7 +46,7 @@
     padding: 0 3%;
 }
 
-.upPrimaryZone > svg {
+.upPrimaryZone > svg, .upPrimaryZone > img {
     width: 10%;
 }
 
@@ -99,10 +99,6 @@
     flex-grow: 1;
 }
 
-.downPrimaryZone > svg {
+.downPrimaryZone > svg, .downPrimaryZone > img {
     width: 20%;
-}
-
-.svg {
-    cursor: pointer;
 }
