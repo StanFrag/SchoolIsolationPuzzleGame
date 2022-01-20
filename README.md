@@ -1,6 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## Présentation
+
+Ce projet est une démonstration de ce qui pourrait être réalisable pour la création d'un jeu de type "unlock" dans le cadre de la prévention contre le harcèlement et l'isolement en milieu scolaire.
+
+La cible principal sont les enfants entre 8 et 14 ans.
+
+Ce jeu met en avant à travers différents indices les comportements qui peuvent alerter sur une situation d'isolement et a pour but de responsabiliser chacun à ces problématiques en poussant à y être attentif.
+
+### Graphismes
+
+Les graphismes ont été crée dans un style cartoon simpliste afin de cibler au mieux les enfants.
+
+L'ensemble des graphismes ont été realisé sous Illustrator2020 en vectoriel.
+
+Vous pouvez retrouver le fichier contenant chacun des élèments grace au lien ci-joint: [Télécharger fichier AI](https://www.transfernow.net/dl/20220120hxtepJa9)
+
+L'ensemble des fichiers SVG présent dans la démonstration ont été generé sous Illustrator.
+
+### Live Demo
+
+Vous pouvez retrouver une version live de la démonstration grace au lien ci-joint: [Démo](https://unlock-game.herokuapp.com/)
+
+### Axes d'améliorations
+
+Plusieurs axes d'améliorations sont possibles et seront effectués dans le futur:
+
+- Mini-jeu (mini-jeu pour mettre en avant les absences).
+- Optimisation du composant SvgHandler (injection du svg en inline et récupération des groupes svg pour gestion des clicks dynamiques).
+- Optimisation des tests (un test par composant React).
+- Boîte de dialogue qui disparaît au bout d'un certain temps avec affichage du texte dynamique.
+- Optimisation de la mise en avant de la récupération d'un nouvel indice.
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 In the project directory, you can run:
 
