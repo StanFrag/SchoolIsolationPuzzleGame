@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 
 import { add } from '../../features/dialog/dialogSlice';
-import { hideModal } from '../../features/modal/modalSlice';
 
 import styles from './Introduction.module.css';
 

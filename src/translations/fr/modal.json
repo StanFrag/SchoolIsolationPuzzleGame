@@ -1,8 +1,8 @@
 {
     "introduction": {
         "text_1": "Depuis quelques jours, mon amie Sarah n'a pas l'air de se sentir bien.",
-        "text_2": "Je voulais lui en parler pour essayer de savoir ce qui n'allait pas pendant la pause de 10h, mais elle est introuvable.",
-        "text_3": "J'ai decidé de retourner en classe pour trouver des indices qui me permettront de savoir ou elle se trouve.",
+        "text_2": "Je voulais lui en parler pour essayer de savoir ce qui n'allait pas pendant la pause de 10 h, mais elle est introuvable.",
+        "text_3": "J'ai décidé de retourner en classe pour trouver des indices qui me permettront de savoir où elle se trouve.",
         "button": "C'est parti !"
     },
     "unlock_box": {
@@ -11,5 +11,18 @@
         "wrong_code": "Code non valide, veuillez réessayer.",
         "open_box": "Ouvrir boite",
         "cake_box": "Boite à Enigme"
+    },
+    "final": {
+        "title": "Félicitation",
+        "text_1": "Tu as réussi à trouver tous les indices te permettant de trouver ton amie Sarah.",
+        "text_2": "Chacun de ces indices met en avant des comportements qui peuvent montrer des cas d'isolements ou de harcèlement en milieu scolaire, plus spécifiquement en classe dans le cadre de ce jeu.",
+        "list": {
+            "title": "On peut retrouver parmi ces comportements: ",
+            "text_1": "La dégradation des affaires scolaires",
+            "text_2": "L'absentéisme fréquent à la première heure de cours et/ou un absentéisme perlé",
+            "text_3": "Être la cible de jets de boulettes/gommes/bouchons/encre",
+            "text_4": "De nombreuses demandes à partir à l'infirmerie"
+        },
+        "text_3": "Il est important de pouvoir identifier ces comportements ainsi que de les remonter aux personnels compétents pour le bien-être de chacun au quotidien."
     }
 }

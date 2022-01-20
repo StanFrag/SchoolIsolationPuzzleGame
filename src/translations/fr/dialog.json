@@ -1,28 +1,28 @@
 {
-    "introduction_after": "Je dois trouver des indices qui me permettront de savoir ou se trouve Sarah.",
+    "introduction_after": "Je dois trouver des indices qui me permettront de savoir où se trouve Sarah.",
     "desk": {
         "desk_main": "C'est le bureau du professeur, je ne devrais pas y toucher.",
         "desk_1": "Il n'y a rien de particulier sur ce bureau.",
-        "desk_2": "Le bureau de Sarah est couvert de saleté, certains élèves s'amusent à lui envoyer de l'encre. Quelqu'un a meme collé un chewing-gum à sa chaise... Tiens, une feuille dechirée est sur son bureau !",
-        "desk_3": "C'est mon bureau. Tiens, on dirait que Sarah m'a laissé une énigme avec sa boite à code. Je dois trouver des indices me permettant de l'ouvrir."
+        "desk_2": "Le bureau de Sarah est couvert de saleté, certains élèves s'amusent à lui envoyer de l'encre. Quelqu'un a même collé un chewing-gum à sa chaise... Tiens, une feuille déchirée est sur son bureau !",
+        "desk_3": "C'est mon bureau. Tiens, on dirait que Sarah m'a laissé une énigme avec sa boîte à code. Je dois trouver des indices me permettant de l'ouvrir."
     },
-    "clock": "La pause va bientot se terminer, je dois trouver ou est Sarah si je veux lui parler.",
-    "board_left": "Les abscences de la semaine, il y a peut etre un indice caché dedans.",
-    "board_right": "Le bien être à l'école, le cours qu'on va commencer apres la pause, j'ai hâte!",
-    "board_information_1": "Un tableau ou on met des informations pour la classe, rien d'interessant.",
-    "board_information_2": "Un tableau ou on met des informations pour la classe, rien d'interessant.",
-    "window": "Sarah n'est pas dans la cour, on a une bonne vu d'ici.",
+    "clock": "La pause va bientôt se terminer, je dois trouver ou se trouve Sarah si je veux lui parler.",
+    "board_left": "Les absences de la semaine. Sarah a été de nombreuses fois absentes cette semaine, souvent à la première heure ou entre les cours. Elle a été absente 10h cette semaine, c'est peut-être un indice !",
+    "board_right": "Le bien-être à l'école, le cours qu'on va commencer après la pause, j'ai hâte !",
+    "board_information_1": "Un tableau où on met des informations pour la classe, rien d'intéressant.",
+    "board_information_2": "Un tableau où on met des informations pour la classe, rien d'intéressant.",
+    "window": "Sarah n'est pas dans la cour, on a une bonne vue d'ici.",
     "locker": {
-        "upper_locker": "Un globe terrestre et des cours qu'on a deja etudié, rien d'interessant.",
-        "default_locker": "Un casier utilisé par un des eleves de ma classe, je ne devrais pas y toucher.",
-        "sarah_locker": "Les livres de Sarah ont été déchiré, ca m'etonnerais que ce soit Sarah qui ait fait ca. Son casier est le numéro 3, ca doit etre un indice.",
-        "lower_locker": "Un microscope et des classeurs pour les cours, rien d'interessant."
+        "upper_locker": "Un globe terrestre et des cours qu'on a déjà étudié, rien d'intéressant.",
+        "default_locker": "Un casier utilisé par un des élèves de ma classe, je ne devrais pas y toucher.",
+        "sarah_locker": "Les livres de Sarah ont été déchiré, ça m'étonnerait que ce soit Sarah qui ait fait ça. Son casier est le numéro 3, ça doit être un indice.",
+        "lower_locker": "Un microscope et des classeurs pour les cours, rien d'intéressant."
     },
-    "unlock_box": "Génial j'ai reussi à trouver le code, je n'ai plus qu'a ouvrir la boite pour savoir si Sarah m'a laissé un message à l'interieur.",
+    "unlock_box": "Un mot est placé dans la boîte à mon attention: \"Je suis parti passer la pause à l'infirmerie, je ne me sentais pas bien, rejoint moi si tu veux.",
     "ink_sheet": {
-        "ink1": "Sarah à ecrit le chiffre 6 avec l'encre que les élèves lui ont envoyé, ca doit etre un indice !",
-        "ink2": "Sarah à toujours aimé dessiner des smileys, est-ce que ca montre comment elle se sent en ce moment?",
+        "ink1": "Sarah a écrit le chiffre 6 avec l'encre que les élèves lui ont envoyée, ça doit être un indice !",
+        "ink2": "Sarah à toujours aimé dessiner des smileys, est-ce que ça montre comment elle se sent en ce moment ?",
         "ink3": "Une tache à cause des élèves qui lui envoi de l'encre en cours...",
-        "tear_sheet": "La feuille est dechiré. Son materiel est dans un sale etat en ce moment, ce n'est pourtant pas le genre de Sarah d'abimer ses affaires."
+        "tear_sheet": "La feuille est dechirée. Son matériel est dans un sale état en ce moment, ce n'est pourtant pas le genre de Sarah d'abimer ses affaires."
     }
 }

@@ -40,7 +40,7 @@ export function Game() {
                 </div>
                 <div className={styles.classroomBoard}>
                     <div className={styles.leftClassroomBoard}>
-                        <SvgHandler src={LeftBoard} dialog="board_left" />
+                        <SvgHandler src={LeftBoard} dialog="board_left" completeClue={{id: 1, value: 10}}/>
                     </div>
                     <div className={styles.rightClassroomBoard}>
                         <SvgHandler src={RightBoard} dialog="board_right" />

@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import { Introduction } from '../../components/introduction/Introduction';
 import { InkSheet } from '../../components/ink-sheet/InkSheet';
+import { Final } from '../../components/final/Final';
 import { UnlockBox } from '../unlock-box/UnlockBox';
 
 import { hideModal } from './modalSlice';
@@ -29,6 +30,10 @@ export function Modal() {
         case 'ink-sheet':
             modalToShow = <InkSheet onCloseButtonClick={() => {dispatch(hideModal());}}/>;
             break;
+        case 'final':
+            modalToShow = <Final />;
+            break;
+        default:
     }
 
     return (

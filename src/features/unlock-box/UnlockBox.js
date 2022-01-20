@@ -10,6 +10,8 @@ import {
 
 import { add } from '../dialog/dialogSlice';
 
+import { showModal } from '../modal/modalSlice';
+
 import { SvgHandler } from '../../components/svg-handler/SvgHandler';
 import Cake from '../../assets/svg/cake.svg';
 
@@ -20,34 +22,40 @@ export function UnlockBox(props) {
     const {t} = useTranslation('modal');
 
     const lockCode = useSelector(getLockCode);
-    const codeToUnlock = "3156";
+    const codeToUnlock = "3106"; // target code
 
     var isUnlock = false;
     var errorMessage;
     var lockInformation = <div className={styles.lockInformationLock}>{t('unlock_box.lock')}</div>;
 
+    // if code reach max code number
     if(lockCode.length === codeToUnlock.length) {
+        // code is valid
         if(lockCode === codeToUnlock) {
             isUnlock = true;
-            dispatch(add('unlock_box'));
+            // show box is unlock
             lockInformation = <div className={styles.lockInformationUnlock}>{t('unlock_box.unlock')}</div>;
         } else {
+            // display error message
             errorMessage = <p className={styles.lockErrorMessage}>{t('unlock_box.wrong_code')}</p>;
         }
     }
 
     function addCode(n) {
-        if(isUnlock) return;
-        errorMessage = null;
-
+        if(isUnlock) return; // If already unlock dont do anything
+        errorMessage = null; // reinit error message
+        // if code reach max value we reinit code
         if(lockCode.length === codeToUnlock.length) {
             dispatch(reinitLock());
         }
+        // add choose number to code lock
         dispatch(addNumberToLock(n));
     }
 
     function openBox() {
-        if(isUnlock) return;
+        if(!isUnlock) return; // if code dont unlock we cant open box
+        dispatch(add('unlock_box'));
+        dispatch(showModal('final')); // show final modal
     }
 
     return (
