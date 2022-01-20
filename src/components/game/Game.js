@@ -3,6 +3,7 @@ import React from 'react';
 import { Clue } from '../../features/clue/Clue';
 import { Counter } from '../../features/counter/Counter';
 import { Dialog } from '../../features/dialog/Dialog';
+import { Modal } from '../../features/modal/Modal';
 
 import { Locker } from '../locker/Locker';
 import { SvgHandler } from '../svg-handler/SvgHandler';
@@ -28,6 +29,7 @@ export function Game() {
         <Counter />
       </header>
       <div className={styles.body}>
+        <Modal />
         <section className={styles.primaryZone}>
             <div className={styles.upPrimaryZone}>
                 <div className={styles.clockInformation}>
@@ -53,7 +55,7 @@ export function Game() {
                 <SvgHandler src={MainDesk} dialog="desk.desk_main" />
                 <SvgHandler src={Desk1} dialog="desk.desk_1"/>
                 <SvgHandler src={Desk2} dialog="desk.desk_2" />
-                <SvgHandler src={Desk3} dialog="desk.desk_3" />
+                <SvgHandler src={Desk3} dialog="desk.desk_3" showModal="unlock-box"/>
             </div>
         </section>
         <section className={styles.secondaryZone}>

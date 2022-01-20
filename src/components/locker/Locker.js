@@ -35,7 +35,7 @@ export function Locker() {
                 <div>
                     <div>
                         <div className={styles.lockerName}>3 - Sarah</div>
-                        <SvgHandler src={Locker3} dialog="locker.sarah_locker" />
+                        <SvgHandler src={Locker3} dialog="locker.sarah_locker" completeClue={{id: 0, value: 3}} />
                     </div>
                 </div>
                 <div>

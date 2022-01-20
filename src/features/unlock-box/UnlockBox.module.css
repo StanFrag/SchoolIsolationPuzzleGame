@@ -1,0 +1,173 @@
+.modal {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.close {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 1%;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > div {
+    display: flex;
+    width: 100%;
+}
+
+.separator {
+    height: 15px;
+    background-color: #edcaed;
+}
+
+.boxLeft {
+    width: 10%;
+
+    background-color: #d68ed3;
+}
+
+.boxRight {
+    width: 90%;
+    background-color: #e8a3e2;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxRight > div {
+    width: 40%;
+}
+
+.boxRight img {
+    margin: 15px;
+}
+
+.cakeBox {
+    color: white;
+    font-size: 1.25em;
+    margin-top: 30%;
+}
+
+.lockContainer {
+    background-color: #edcaed;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    margin-top: 20px;
+    padding: 1% 0;
+}
+
+.lockNumber {
+    width: 30%;
+    background-color: white;
+    color: #d68ed3;
+    font-weight: 600;
+    margin: 1% 0;
+    padding: 3% 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.lockNumber:hover {
+    background-color: #e8a3e2;
+    color: white;
+}
+
+.lockInformation {
+    display: flex;
+    padding: 3%;
+    background-color: #edcaed;
+    margin-top: 20px;
+}
+
+.lockInformationUnlock {
+    width: 50%;
+
+    background-color: #428e69;
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+    padding: 2%;
+}
+
+.lockInformationLock {
+    width: 50%;
+
+    background-color: #d14d43;
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+    padding: 2%;
+}
+
+.lockInformationCode {
+    width: 50%;
+    color: white;
+    font-size: 0.75em;
+    padding: 2%;
+}
+
+.openButtonContainer {
+    background-color: #edcaed;
+
+    display: flex;
+    padding: 3% 3% 0 3%;
+}
+
+.openButton {
+    width: 100%;
+
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #d68ed3;
+}
+
+.openButton:hover {
+    background-color: #e8a3e2;
+    color: white;
+}
+
+.closedButton {
+    width: 100%;
+
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #d1d1d1;
+    font-size: 0.75em;
+    font-weight: 600;
+    color: #a067a0;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lockErrorMessage {
+    color: red;
+    font-size: 0.75em;
+}

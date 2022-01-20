@@ -1,0 +1,15 @@
+{
+    "introduction": {
+        "text_1": "Depuis quelques jours, mon amie Sarah n'a pas l'air de se sentir bien.",
+        "text_2": "Je voulais lui en parler pour essayer de savoir ce qui n'allait pas pendant la pause de 10h, mais elle est introuvable.",
+        "text_3": "J'ai decidé de retourner en classe pour trouver des indices qui me permettront de savoir ou elle se trouve.",
+        "button": "C'est parti !"
+    },
+    "unlock_box": {
+        "unlock": "Ouvert",
+        "lock": "Fermé",
+        "wrong_code": "Code non valide, veuillez réessayer.",
+        "open_box": "Ouvrir boite",
+        "cake_box": "Boite à Enigme"
+    }
+}

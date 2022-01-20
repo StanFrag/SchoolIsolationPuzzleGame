@@ -1,9 +1,10 @@
 {
+    "introduction_after": "Je dois trouver des indices qui me permettront de savoir ou se trouve Sarah.",
     "desk": {
         "desk_main": "C'est le bureau du professeur, je ne devrais pas y toucher.",
         "desk_1": "Il n'y a rien de particulier sur ce bureau.",
         "desk_2": "Le bureau de Sarah est couvert de saleté, certains élèves s'amusent à lui envoyer de l'encre. Quelqu'un a meme collé un chewing-gum à sa chaise...",
-        "desk_3": "C'est mon bureau. Tiens, on dirai que Sarah m'a laissé une énigme avec sa boite à code."
+        "desk_3": "C'est mon bureau. Tiens, on dirait que Sarah m'a laissé une énigme avec sa boite à code. Je dois trouver des indices me permettant de l'ouvrir."
     },
     "clock": "La pause va bientot se terminer, je dois trouver ou est Sarah si je veux lui parler.",
     "board_left": "Les abscences de la semaine, il y a peut etre un indice caché dedans.",

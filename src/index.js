@@ -10,13 +10,15 @@ import {I18nextProvider} from "react-i18next";
 import i18next from "i18next";
 
 import dialog_fr from "./translations/fr/dialog.json";
+import modal_fr from "./translations/fr/modal.json";
 
 i18next.init({
     interpolation: { escapeValue: false },  // React already does escaping
     lng: 'fr',                              // language to use
     resources: {
         fr: {
-            dialog: dialog_fr               // 'dialog' is our custom namespace
+            dialog: dialog_fr,
+            modal: modal_fr
         }
     },
 });

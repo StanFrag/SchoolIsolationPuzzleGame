@@ -10,10 +10,16 @@ export const dialogSlice = createSlice({
   // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
     add: (state, action) => {
-        state.value = action.payload;
+      return {
+        ...state,
+        value: action.payload
+      }
     },
     hide: (state) => {
-        state.value = null;
+      return {
+        ...state,
+        value: null
+      }
     }
   }
 });
