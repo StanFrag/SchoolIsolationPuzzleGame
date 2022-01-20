@@ -8,6 +8,8 @@ import {
     reinitLock
 } from './unlockSlice';
 
+import { add } from '../dialog/dialogSlice';
+
 import { SvgHandler } from '../../components/svg-handler/SvgHandler';
 import Cake from '../../assets/svg/cake.svg';
 
@@ -27,6 +29,7 @@ export function UnlockBox(props) {
     if(lockCode.length === codeToUnlock.length) {
         if(lockCode === codeToUnlock) {
             isUnlock = true;
+            dispatch(add('unlock_box'));
             lockInformation = <div className={styles.lockInformationUnlock}>{t('unlock_box.unlock')}</div>;
         } else {
             errorMessage = <p className={styles.lockErrorMessage}>{t('unlock_box.wrong_code')}</p>;

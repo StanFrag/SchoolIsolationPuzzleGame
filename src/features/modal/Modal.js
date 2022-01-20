@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { Introduction } from '../../components/introduction/Introduction';
+import { InkSheet } from '../../components/ink-sheet/InkSheet';
 import { UnlockBox } from '../unlock-box/UnlockBox';
 
 import { hideModal } from './modalSlice';
@@ -20,10 +21,13 @@ export function Modal() {
 
     switch (modal.type) {
         case 'intro':
-            modalToShow = <Introduction />;
+            modalToShow = <Introduction onCloseButtonClick={() => {dispatch(hideModal());}}/>;
             break;
         case 'unlock-box':
             modalToShow = <UnlockBox onCloseButtonClick={() => {dispatch(hideModal());}}/>;
+            break;
+        case 'ink-sheet':
+            modalToShow = <InkSheet onCloseButtonClick={() => {dispatch(hideModal());}}/>;
             break;
     }
 

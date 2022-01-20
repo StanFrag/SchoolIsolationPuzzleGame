@@ -3,7 +3,7 @@
     "desk": {
         "desk_main": "C'est le bureau du professeur, je ne devrais pas y toucher.",
         "desk_1": "Il n'y a rien de particulier sur ce bureau.",
-        "desk_2": "Le bureau de Sarah est couvert de saleté, certains élèves s'amusent à lui envoyer de l'encre. Quelqu'un a meme collé un chewing-gum à sa chaise...",
+        "desk_2": "Le bureau de Sarah est couvert de saleté, certains élèves s'amusent à lui envoyer de l'encre. Quelqu'un a meme collé un chewing-gum à sa chaise... Tiens, une feuille dechirée est sur son bureau !",
         "desk_3": "C'est mon bureau. Tiens, on dirait que Sarah m'a laissé une énigme avec sa boite à code. Je dois trouver des indices me permettant de l'ouvrir."
     },
     "clock": "La pause va bientot se terminer, je dois trouver ou est Sarah si je veux lui parler.",
@@ -17,5 +17,12 @@
         "default_locker": "Un casier utilisé par un des eleves de ma classe, je ne devrais pas y toucher.",
         "sarah_locker": "Les livres de Sarah ont été déchiré, ca m'etonnerais que ce soit Sarah qui ait fait ca. Son casier est le numéro 3, ca doit etre un indice.",
         "lower_locker": "Un microscope et des classeurs pour les cours, rien d'interessant."
+    },
+    "unlock_box": "Génial j'ai reussi à trouver le code, je n'ai plus qu'a ouvrir la boite pour savoir si Sarah m'a laissé un message à l'interieur.",
+    "ink_sheet": {
+        "ink1": "Sarah à ecrit le chiffre 6 avec l'encre que les élèves lui ont envoyé, ca doit etre un indice !",
+        "ink2": "Sarah à toujours aimé dessiner des smileys, est-ce que ca montre comment elle se sent en ce moment?",
+        "ink3": "Une tache à cause des élèves qui lui envoi de l'encre en cours...",
+        "tear_sheet": "La feuille est dechiré. Son materiel est dans un sale etat en ce moment, ce n'est pourtant pas le genre de Sarah d'abimer ses affaires."
     }
 }

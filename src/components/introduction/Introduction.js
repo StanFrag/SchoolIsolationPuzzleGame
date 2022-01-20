@@ -7,13 +7,14 @@ import { hideModal } from '../../features/modal/modalSlice';
 
 import styles from './Introduction.module.css';
 
-export function Introduction() {
+export function Introduction(props) {
     const dispatch = useDispatch();
     const {t} = useTranslation('modal');
     
     function handleClick() {
-        dispatch(hideModal());
-        dispatch(add('introduction_after'));;
+        dispatch(add('introduction_after'));
+
+        props.onCloseButtonClick();
     }
 
     return (

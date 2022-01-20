@@ -27,6 +27,6 @@ export function SvgHandler(props) {
     }
       
     return(
-        <img src={props.src} onClick={HandleClick} alt="" className={styles.svg}/>
+        <img src={props.src} onClick={HandleClick} alt="" className={props.dialog ? styles.svg : null}/>
     );
 }

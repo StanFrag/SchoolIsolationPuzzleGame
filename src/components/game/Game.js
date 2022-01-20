@@ -54,7 +54,7 @@ export function Game() {
             <div className={styles.downPrimaryZone}>
                 <SvgHandler src={MainDesk} dialog="desk.desk_main" />
                 <SvgHandler src={Desk1} dialog="desk.desk_1"/>
-                <SvgHandler src={Desk2} dialog="desk.desk_2" />
+                <SvgHandler src={Desk2} dialog="desk.desk_2" showModal="ink-sheet" />
                 <SvgHandler src={Desk3} dialog="desk.desk_3" showModal="unlock-box"/>
             </div>
         </section>
