@@ -14,8 +14,15 @@
 .clue p{
     margin: 0px;
     font-size: 1em;
+    color: black;
 }
 
-.clue-excerpt {
-    background-color: red;
+.addedClue {
+    animation-name: focusColor;
+    animation-duration: 3s;
+}
+
+@keyframes focusColor {
+    0%   {color: black;}
+    100% {color: #428e69; text-decoration: underline;}
 }

@@ -10,7 +10,7 @@ export function Clue() {
 
   const renderedClues = clues.map(clue => (
     <div className={styles.clue} key={clue.id}>
-      <p>{clue.value ? clue.value : "?"}</p>
+      <p className={clue.value ? styles.addedClue : null}>{clue.value ? clue.value : "?"}</p>
     </div>
   ))
 
