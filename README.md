@@ -20,6 +20,8 @@ L'ensemble des fichiers SVG présent dans la démonstration ont été generé so
 
 Vous pouvez retrouver une version live de la démonstration grace au lien ci-joint: [Démo](https://unlock-game.herokuapp.com/)
 
+Ainsi qu'une version live de la version en développement grace au lien ci-joint: [Dev Démo](https://unlock-game-dev.herokuapp.com/)
+
 ### Axes d'améliorations
 
 Plusieurs axes d'améliorations sont possibles et seront effectués dans le futur:
