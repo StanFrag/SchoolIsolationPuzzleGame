@@ -34,6 +34,7 @@ export function Modal() {
             modalToShow = <Final />;
             break;
         default:
+            break;
     }
 
     return (

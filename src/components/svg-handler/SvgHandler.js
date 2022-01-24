@@ -27,6 +27,18 @@ export function SvgHandler(props) {
     }
       
     return(
-        <img src={props.src} onClick={HandleClick} alt="" className={props.dialog ? styles.svg : null}/>
+        <img
+            src={props.src}
+            id={props.id}
+            alt=""
+
+            draggable={ props.onDragCallback ? true : false}
+            onDragStart={props.onDragCallback}
+            data-ref={props.dragRef}
+            onDrop={props.onDropCallback}
+            onDragOver={props.onDragOverCallback}
+            
+            onClick={ HandleClick }
+            className={props.dialog ? styles.svg : null}/>
     );
 }

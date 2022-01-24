@@ -1,5 +1,5 @@
 .modal {
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -11,30 +11,4 @@
     color: white;
     margin-bottom: 1%;
     font-weight: 600;
-}
-
-.container {
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.container > div {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container > div > img {
-    width: 60%;
-}
-
-.container > div > div {
-    width: 50%;
-    padding: 5% 5% 5% 10%;
-    background-color: #f2edeb;
-}
-
-.container > div > div > img {
-    width: 75%;
 }

@@ -24,5 +24,11 @@
             "text_4": "De nombreuses demandes à partir à l'infirmerie"
         },
         "text_3": "Il est important de pouvoir identifier ces comportements ainsi que de les remonter aux personnels compétents pour le bien-être de chacun au quotidien."
+    },
+    "ink_sheet": {
+        "puzzle": {
+            "invalidPuzzle": "Ce n'est pas ça, je dois réessayer.",
+            "validPuzzle": "C'est bon, j'ai trouvé la solution!"
+        }
     }
 }

@@ -1,0 +1,61 @@
+.zone {
+    width: 70%;
+
+    background-color: white;
+    padding: 5%;
+}
+
+.puzzle {
+    width: 100%;
+
+    border: 2px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.puzzleError {
+    border: 2px solid red;
+}
+
+.puzzleSuccess {
+    border: 2px solid green;
+}
+
+.puzzleMessageError {
+    color: red;
+}
+
+.puzzleMessageSuccess {
+    color: green;
+}
+
+.puzzle > div {
+    /* flex settings can be basically anything */
+    flex: 1 0 auto;
+    height: auto;
+
+    width: 30%;
+
+    border: 1px dashed black;
+}
+
+.puzzle > .empty:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.puzzle > img {
+    /* flex settings can be basically anything */
+    flex: 1 0 auto;
+    height: auto;
+
+    width: 30%;
+
+    border: 1px dashed black;
+}
+
+.puzzle.puzzleSuccess > img {
+    border: none;
+}
