@@ -32,15 +32,15 @@ import puzzleReducer, {
         });
     });
     it('should handle drop piece', () => {
-      const actual = puzzleReducer(initialState, dropPiece({id: 2, ref: 1}));
+      const actual = puzzleReducer(initialState, dropPiece({id: 2, ref: "1"}));
       expect(actual.dropped[3].id).toEqual(2);
-      expect(actual.dropped[3].ref).toEqual(1);
+      expect(actual.dropped[3].ref).toEqual("1");
 
-      const second = puzzleReducer(actual, dropPiece({id: 1, ref: 1}));
+      const second = puzzleReducer(actual, dropPiece({id: 1, ref: "1"}));
       expect(second.dropped[3].id).toEqual(2);
       expect(second.dropped[3].ref).toEqual(null);
       expect(second.dropped[2].id).toEqual(1);
-      expect(second.dropped[2].ref).toEqual(1);
+      expect(second.dropped[2].ref).toEqual("1");
     });
   });
   

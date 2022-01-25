@@ -23,7 +23,7 @@ export function Puzzle() {
 
     function dragStartHandler(ev) {
         // On ajoute l'identifiant de l'élément cible à l'objet de transfert
-        ev.dataTransfer.setData("application/dragRef", parseInt(ev.target.getAttribute('data-ref')));
+        ev.dataTransfer.setData("application/dragRef", ev.target.getAttribute('data-ref'));
         ev.dataTransfer.dropEffect = "move";
     }
 
@@ -31,7 +31,7 @@ export function Puzzle() {
         dispatch(complete({id: 2, value: 6}));
     }
 
-    const targetResultPuzzle = [5, 2, 3, 4, 7, 1, 0, 6, 8];
+    const targetResultPuzzle = ["5", "2", "3", "4", "7", "1", "0", "6", "8"];
     const svgPieceList = [ Puzzle1, Puzzle2, Puzzle3, Puzzle4, Puzzle5, Puzzle6, Puzzle7, Puzzle8, Puzzle9 ];
 
     return (

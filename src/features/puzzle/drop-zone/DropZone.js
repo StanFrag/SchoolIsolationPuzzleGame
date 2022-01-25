@@ -38,7 +38,7 @@ export function DropZone(props) {
         
         if(dropped[key].ref === null) {
             return null;
-        } else if(dropped[key].ref != props.targetResult[key]) {
+        } else if(dropped[key].ref !== props.targetResult[key]) {
             error = true;
         }
 
